@@ -5,36 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FS</title>
+    <title>FilmSidan</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="styles/print.css" media="print">
 </head>
 
 <body>
-    <div class="head">
+    <header>
         <h1>My movie </h1>
-    </div>
-    <div class="informatin">
-        <span>
-            POTTER: Return to Hogwarts Trailer (2022) Daniel Radcliffe, Rupert Grint, Emma Watson, HP, Harry Potter Reunion
-            © 2021 - HBO Max
-        </span> 
-    </div>
-    <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/6N90KOF7ZMU" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
-    <div class="links">
+    </header>
+    <nav class="links">
         <h4>Min länkar</h4>
-        <a target="_blank" href="http://www.lexicon.se">Lexicon</a>
-        <a target="_blank" href="http://www.microsoft.com" >Microsoft</a>
-        <a target="_blank" href="https://www.youtube.com/user/HarryPotter">Harry Potter on YouTube</a>
-        <a target="_blank" href="https://sv.wikipedia.org/wiki/Harry_Potter">Harry Potter Wikipedia</a>
-        <a target="_blank" href="https://www.hp-lexicon.org/character/potter-family/harry-potter/">HP-Lexicon</a>
-    </div>
-    <div class="footer">
-        Webmaster "Micke" på uppdrag av FS.
-    </div>
+        <div class="linksL">
+            <ul>
+                <!-- <li> <a target="_blank" href="http://www.lexicon.se" rel="noreferrer noopener">Lexicon</a></li>
+                    <li> <a target="_blank" href="http://www.microsoft.com" rel="noreferrer noopener">Microsoft</a></li> -->
+                <li> <a target="_blank" href="https://www.youtube.com/user/HarryPotter" rel="noreferrer noopener">Harry
+                        Potter on
+                        YouTube</a></li>
+                <li> <a target="_blank" href="https://sv.wikipedia.org/wiki/Harry_Potter"
+                        rel="noreferrer noopener">Harry
+                        Potter
+                        Wikipedia</a></li>
+                <li><a target="_blank" href="https://www.hp-lexicon.org/character/potter-family/harry-potter/"
+                        rel="noreferrer noopener">HP-Lexicon</a></li>
+                <li><a target="_self" href="testpage.html">Testsidan</a></li>
+            </ul>
+        </div>
+    </nav>
+    <article>
+        <h3>Video</h3>
+        <section>
+            <h3>Information</h3>
+            <div class="information">
+                <span>
+                    POTTER: Return to Hogwarts Trailer (2022) Daniel Radcliffe, Rupert Grint, Emma Watson, HP, Harry
+                    Potter Reunion
+                    © 2021 - HBO Max
+                </span>
+            </div>
+        </section>
+        <section class="video">
+            <h4>Trailer</h4>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6N90KOF7ZMU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen 
+                    ></iframe>
+            </div>
+        </section>
+    </article>
+
+    <footer>
+        Webmaster &copy;<abbr title="Mikael Larsson">"Micke"</abbr> på uppdrag av FS.
+    </footer>
+
 </body>
 
 </html>
