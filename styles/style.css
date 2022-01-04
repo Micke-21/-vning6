@@ -40,6 +40,7 @@ header{
     margin-right: auto;
     padding: 0px;
 }
+
 article{
     color: rgb(231, 99, 99);
     background-color: lightsteelblue;
@@ -99,6 +100,7 @@ iframe{
     width:560px;
     background-color: slategrey;
 }
+
 
 .links{
     background-color: rgb(168, 168, 243);
